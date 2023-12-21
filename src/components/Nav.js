@@ -11,6 +11,9 @@ function Nav(props) {
   const searchHandler = () => {
     setCurrentPage("search");
   };
+  const settingHandler = () => {
+    setCurrentPage("setting");
+  };
   const bookHandler = () => {
     setCurrentPage("");
     navigate("/service");
@@ -36,6 +39,13 @@ function Nav(props) {
               to="/search"
             >
               預約查詢
+            </Link>
+            <Link
+              className={currentPage === "setting" ? "currentPage" : ""}
+              onClick={settingHandler}
+              to="/setting"
+            >
+              商家設定
             </Link>
           </li>
         </ul>
