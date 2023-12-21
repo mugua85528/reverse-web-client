@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "https://sideproject-reverseweb.onrender.com/api/shop/";
+const API_URL = "https://sideprojectreverseweb.onrender.com/api/shop/";
 
 class ShopService {
   getShopData() {
