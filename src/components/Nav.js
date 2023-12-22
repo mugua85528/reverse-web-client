@@ -40,13 +40,6 @@ function Nav(props) {
             >
               預約查詢
             </Link>
-            <Link
-              className={currentPage === "setting" ? "currentPage" : ""}
-              onClick={settingHandler}
-              to="/setting"
-            >
-              商家設定
-            </Link>
           </li>
         </ul>
       </div>

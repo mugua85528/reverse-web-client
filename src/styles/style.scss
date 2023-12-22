@@ -70,8 +70,9 @@
 }
 
 #Search {
+  position: relative;
   width: 100%;
-  min-height: 40vh;
+  min-height: 50vh;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -179,6 +180,7 @@
 }
 
 #Home {
+  position: relative;
   height: auto;
   width: 100%;
   display: flex;
@@ -549,7 +551,7 @@
   }
   .location {
     height: auto;
-    margin-top: 5rem;
+    margin: 5rem 0 3rem 0;
     .p-hr {
       display: flex;
       flex-direction: column;
@@ -591,6 +593,7 @@
 }
 
 #Service {
+  position: relative;
   width: 100%;
   height: auto;
   .step {
@@ -650,6 +653,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
     .card {
       padding: 1rem;
       margin: 0rem 1rem;
@@ -707,6 +711,7 @@
 }
 
 #ReverseMain {
+  position: relative;
   height: auto;
   width: 100%;
   .step {
@@ -898,6 +903,7 @@
 }
 
 #Data {
+  position: relative;
   width: 100%;
   height: auto;
   .step {
@@ -1160,6 +1166,13 @@
       }
     }
   }
+}
+
+#Footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 @keyframes button {

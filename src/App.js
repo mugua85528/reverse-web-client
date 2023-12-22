@@ -2,9 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Layout from "./components/Layout";
 import Reverse from "./components/Reverse";
-import ShopSetting from "./components/ShopSetting";
 import SearchReverse from "./components/SearchReverse";
-import ShopPage from "./components/ShopPage";
 import Service from "./components/Service";
 import CheckData from "./components/CheckData";
 import React, { useState } from "react";
@@ -39,9 +37,7 @@ function App() {
               />
             }
           />
-          <Route path="/setting" element={<ShopSetting />} />
           <Route path="/search" element={<SearchReverse />} />
-          <Route path="/shop" element={<ShopPage />} />
           <Route
             path="/check"
             element={
